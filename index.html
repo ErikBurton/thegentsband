@@ -85,19 +85,19 @@
           <p>Driving the beat from behind the kit.</p>
         </article>
         <article class="member">
-          <h3>Member Name</h3>
-          <span class="role">Instrument TBA</span>
-          <p>Bio coming soon.</p>
+          <h3>Chris "CZ"</h3>
+          <span class="role">Vocals</span>
+          <p>The voice that gets the whole room singing.</p>
         </article>
         <article class="member">
-          <h3>Member Name</h3>
-          <span class="role">Instrument TBA</span>
-          <p>Bio coming soon.</p>
+          <h3>Tommy T</h3>
+          <span class="role">Keys</span>
+          <p>From piano hooks to ’80s synths, he covers it.</p>
         </article>
         <article class="member">
-          <h3>Member Name</h3>
-          <span class="role">Instrument TBA</span>
-          <p>Bio coming soon.</p>
+          <h3>Cory Clar</h3>
+          <span class="role">Guitar/Vocals</span>
+          <p>Riffs, solos and the high harmonies.</p>
         </article>
       </div>
     </div>
@@ -205,8 +205,11 @@
           <li>Community events</li>
         </ul>
       </div>
-      <!-- Replace YOUR_FORM_ID with the Formspree form ID -->
-      <form id="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <!-- Formspree form: "The Gents Booking" -->
+      <form id="booking-form" action="https://formspree.io/f/xjywvebq" method="POST">
+        <input type="hidden" name="_subject" value="New booking request from thegentsband.com">
+        <!-- Spam trap: real people never see or fill this -->
+        <input type="text" name="_gotcha" id="gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute; left:-9999px;">
         <div class="row">
           <label for="name">Name<input id="name" name="name" type="text" autocomplete="name" required></label>
           <label for="email">Email<input id="email" name="email" type="email" autocomplete="email" required></label>
