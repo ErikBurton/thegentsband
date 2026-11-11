@@ -165,3 +165,24 @@ footer .logo { font-size: 1.3rem; }
   .show { grid-template-columns: 1fr; gap: 6px; }
   form { padding: 22px; }
 }
+
+/* Song list */
+.songs { background: var(--stage-2); }
+.songs-intro { margin: 14px 0 0; max-width: 60ch; }
+.song-list {
+  list-style: none; padding: 0; margin: 32px 0 0;
+  columns: 3 280px; column-gap: 40px;
+  counter-reset: song;
+}
+.song-list li {
+  break-inside: avoid; counter-increment: song;
+  display: grid; grid-template-columns: 2.2em 1fr; column-gap: 8px;
+  padding: 10px 0; border-bottom: 1px solid var(--line);
+}
+.song-list li::before {
+  content: counter(song, decimal-leading-zero);
+  grid-row: span 2; font-family: var(--font-label); font-weight: 600;
+  color: var(--gold); font-variant-numeric: tabular-nums; padding-top: 2px;
+}
+.song-list .song { font-weight: 600; color: var(--ink); line-height: 1.35; }
+.song-list .artist { color: var(--muted); font-size: .95rem; }
