@@ -186,3 +186,8 @@ footer .logo { font-size: 1.3rem; }
 }
 .song-list .song { font-weight: 600; color: var(--ink); line-height: 1.35; }
 .song-list .artist { color: var(--muted); font-size: .95rem; }
+
+/* Footer credit */
+footer .credit { width: 100%; font-size: .85rem; }
+footer .credit a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
+footer .credit a:hover { color: var(--gold); }
