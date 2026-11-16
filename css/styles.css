@@ -191,3 +191,11 @@ footer .logo { font-size: 1.3rem; }
 footer .credit { width: 100%; font-size: .85rem; }
 footer .credit a { color: var(--muted); text-decoration: underline; text-underline-offset: 3px; }
 footer .credit a:hover { color: var(--gold); }
+
+
+/* Show entries */
+.show time { display: grid; gap: 4px; }
+.show-day { font-family: var(--font-label); font-weight: 600; font-size: .85rem; letter-spacing: .18em; color: var(--muted); }
+.show-info { display: grid; gap: 2px; }
+.show-info strong { font-family: var(--font-label); font-weight: 700; font-size: 1.3rem; text-transform: uppercase; letter-spacing: .04em; }
+.shows-more { margin: 20px 0 0; }
