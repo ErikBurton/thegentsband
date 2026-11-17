@@ -199,3 +199,23 @@ footer .credit a:hover { color: var(--gold); }
 .show-info { display: grid; gap: 2px; }
 .show-info strong { font-family: var(--font-label); font-weight: 700; font-size: 1.3rem; text-transform: uppercase; letter-spacing: .04em; }
 .shows-more { margin: 20px 0 0; }
+
+
+/* Social links */
+.social { display: flex; gap: 10px; }
+.social-link {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid var(--line); color: var(--ink); transition: color .15s, border-color .15s;
+}
+.social-link:hover { color: var(--gold); border-color: var(--gold); }
+.follow { margin-top: 32px; display: grid; gap: 10px; justify-items: start; }
+.follow-label { margin: 0; font-family: var(--font-label); font-weight: 600; text-transform: uppercase; letter-spacing: .18em; font-size: .85rem; color: var(--muted); }
+.follow-link {
+  display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px;
+  border: 1px solid var(--line); border-radius: 4px; text-decoration: none; color: var(--ink);
+  font-family: var(--font-label); font-weight: 700; text-transform: uppercase; letter-spacing: .1em;
+  transition: color .15s, border-color .15s;
+}
+.follow-link:hover { color: var(--gold); border-color: var(--gold); }
+.footer-brand { display: flex; align-items: center; gap: 20px; }
